@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-travel-sites-client-side-solution",
+    "id": "5cce4c59-50a6-4cfa-95f6-389c14a66627",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-travel-sites description"
+      },
+      "longDescription": {
+        "default": "spfx-travel-sites description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-travel-sites Feature",
+        "description": "The feature that activates elements of the spfx-travel-sites solution.",
+        "id": "effdcbbd-4f9d-458d-86c6-31915556b3a3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-travel-sites.sppkg"
+  }
+}

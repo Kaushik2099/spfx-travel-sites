@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "travel-sites-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/travelSites/TravelSitesWebPart.js",
+          "manifest": "./src/webparts/travelSites/TravelSitesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TravelSitesWebPartStrings": "lib/webparts/travelSites/loc/{locale}.js"
+  }
+}
